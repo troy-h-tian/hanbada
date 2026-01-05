@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Woo Young-woo leads Hanbada</Name>
+    <Guid>3bc72f2b-772d-4905-bc47-6de9d6206647</Guid>
+    <ProjectGuid>8267769f-a97e-45ed-9750-df463cf9ad08</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Extraordinary Attorney Woo mod</Teaser>
+    <Description>Extraordinary Attorney Woo civilisation mod for Civ 6</Description>
+    <Authors>tianhanfei</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>Woo Young-woo leads Hanbada</AssemblyName>
+    <RootNamespace>Woo Young-woo leads Hanbada</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Woo_Frontend_Database"><File>Config.sql</File></UpdateDatabase><UpdateText id="Woo_Frontend_Text"><File>Text.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Woo_Ingame_Database"><File>Gameplay.xml</File></UpdateDatabase><UpdateText id="Woo_Ingame_Text"><File>Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Woo_Young_woo_leads_Hanbada.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="hanbada_icon_128.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="hanbada_icon_200.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="hanbada_icon_22.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="hanbada_icon_256.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="hanbada_icon_30.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="hanbada_icon_36.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="hanbada_icon_44.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="hanbada_icon_48.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="hanbada_icon_50.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="hanbada_icon_64.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

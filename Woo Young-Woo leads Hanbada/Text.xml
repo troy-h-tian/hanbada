@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text -->
+<!-- Author: tianhanfei -->
+<!-- DateCreated: 7/1/2023 8:19:37 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_THT_CIVILIZATION_HANBADA_NAME" Language="en_US">
+			<Text>Hanbada</Text>
+		</Row>
+		<Row Tag="LOC_THT_CIVILIZATION_HANBADA_DESCRIPTION" Language="en_US">
+			<Text>Hanbada Empire</Text>
+		</Row>
+		<Row Tag="LOC_THT_CIVILIZATION_HANBADA_ADJECTIVE" Language="en_US">
+			<Text>Hanbada</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_HANBADA_LAW_FIRM" Language="en_US">
+			<Text>Hanbada Law Firm</Text>
+		</Row>
+		<Row Tag="LOC_THT_TRAIT_CIVILIZATION_TOP_DOG_CLIENTS_NAME" Language="en_US">
+			<Text>Top-Dog Clients</Text>
+		</Row>
+		<Row Tag="LOC_THT_TRAIT_CIVILIZATION_TOP_DOG_CLIENTS_DESCRIPTION" Language="en_US">
+			<Text>Cities with an established Governor receive +5% [ICON_Gold] Gold for each promotion that Governor has. All Spies operate as if they had +1 level.</Text>
+		</Row>
+		<Row Tag="LOC_THT_TRAIT_CIVILIZATION_UNIT_HUMPBACK_WHALE_NAME" Language="en_US">
+			<Text>Humpback Whale</Text>
+		</Row>
+		<Row Tag="LOC_THT_TRAIT_CIVILIZATION_BUILDING_GIMBAP_RESTAURANT_NAME" Language="en_US">
+			<Text>Gimbap Restaurant</Text>
+		</Row>
+		<Row Tag="LOC_THT_UNIT_HUMPBACK_WHALE_NAME" Language="en_US">
+			<Text>Humpback Whale</Text>
+		</Row>
+		<Row Tag="LOC_THT_UNIT_HUMPBACK_WHALE_DESCRIPTION" Language="en_US">
+			<Text>Special type of Great Person unique to Woo Young-woo. Earned upon entering a new era. Must be activated in a City Center. Grants 3 free Eurekas and Inspirations.</Text>
+		</Row>
+		<Row Tag="LOC_THT_BUILDING_GIMBAP_RESTAURANT_DESCRIPTION" Language="en_US">
+			<Text>Replaces the Granary. +2 Food (up from 1), +2 Production, +2 Housing, +2 Amenities.</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_DAD_GIMBAP_RESTAURANT" Language="en_US">
+			<Text>Dad's Gimbap Restaurant</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_HAIRY_PUB" Language="en_US">
+			<Text>Hairy's Pub</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_THE_COURTROOM" Language="en_US">
+			<Text>The Courtroom</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_SODEOK_DONG" Language="en_US">
+			<Text>Sodeok-Dong</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_TAESAN_LAW_FIRM" Language="en_US">
+			<Text>Taesan Law Firm</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_JEJU_ISLAND" Language="en_US">
+			<Text>Jeju Island</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_SNU" Language="en_US">
+			<Text>Seoul National University</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_HWANGJISA" Language="en_US">
+			<Text>Hwangjisa Temple</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_DAEHYEON_HOTEL" Language="en_US">
+			<Text>Daehyeon Hotel</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_DONG_HOUSE" Language="en_US">
+			<Text>Dong Family House</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_IHWA_HQ" Language="en_US">
+			<Text>Ihwa Headquarters</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_GEUMGANG_HQ" Language="en_US">
+			<Text>Geumgang Headquarters</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_BANG_WOODS" Language="en_US">
+			<Text>Bang Gu-ppong's Woods</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_BANG_HAGWON" Language="en_US">
+			<Text>Bang Family Hagwon</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_HAENGBOK_NOODLE" Language="en_US">
+			<Text>Haengbok Noodles</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_RAON_HQ" Language="en_US">
+			<Text>Raon Headquarters</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_TAE_HOUSE" Language="en_US">
+			<Text>Tae Family House</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MALE_1" Language="en_US">
+			<Text>Lee Jun-ho</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MALE_2" Language="en_US">
+			<Text>Jung Myeong-seok</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MALE_3" Language="en_US">
+			<Text>Woo Gwang-ho</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MALE_4" Language="en_US">
+			<Text>Kwon Min-woo</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MALE_5" Language="en_US">
+			<Text>Hairy</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MALE_6" Language="en_US">
+			<Text>Park Yoo-jin</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MALE_7" Language="en_US">
+			<Text>Dong Dong-sam</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MALE_8" Language="en_US">
+			<Text>Pengsoo</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MALE_9" Language="en_US">
+			<Text>Choi Sang-hyeon</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MALE_10" Language="en_US">
+			<Text>Bang Gu-ppong</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_FEMALE_1" Language="en_US">
+			<Text>Woo Young-woo</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_FEMALE_2" Language="en_US">
+			<Text>Han Seon-yeong</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_FEMALE_3" Language="en_US">
+			<Text>Tae Soo-mi</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_FEMALE_4" Language="en_US">
+			<Text>Choi Su-yeon</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_FEMALE_5" Language="en_US">
+			<Text>Dong Geu-ra-mi</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_FEMALE_6" Language="en_US">
+			<Text>Gye Hyang-shim</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_FEMALE_7" Language="en_US">
+			<Text>Shin Hye-yeong</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_FEMALE_8" Language="en_US">
+			<Text>Kim Hwa-young</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_FEMALE_9" Language="en_US">
+			<Text>Choi Ji-soo</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_FEMALE_10" Language="en_US">
+			<Text>Choi Da-hae</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_1" Language="en_US">
+			<Text>Lee Jun-ho</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_2" Language="en_US">
+			<Text>Jung Myeong-seok</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_3" Language="en_US">
+			<Text>Woo Gwang-ho</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_4" Language="en_US">
+			<Text>Kwon Min-woo</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_5" Language="en_US">
+			<Text>Hairy</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_6" Language="en_US">
+			<Text>Park Yoo-jin</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_7" Language="en_US">
+			<Text>Dong Dong-sam</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_8" Language="en_US">
+			<Text>Pengsoo</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_9" Language="en_US">
+			<Text>Choi Sang-hyeon</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_10" Language="en_US">
+			<Text>Bang Gu-ppong</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_1" Language="en_US">
+			<Text>Woo Young-woo</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_2" Language="en_US">
+			<Text>Han Seon-yeong</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_3" Language="en_US">
+			<Text>Tae Soo-mi</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_4" Language="en_US">
+			<Text>Choi Su-yeon</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_5" Language="en_US">
+			<Text>Dong Geu-ra-mi</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_6" Language="en_US">
+			<Text>Gye Hyang-shim</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_7" Language="en_US">
+			<Text>Shin Hye-yeong</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_8" Language="en_US">
+			<Text>Kim Hwa-young</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_9" Language="en_US">
+			<Text>Choi Ji-soo</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_10" Language="en_US">
+			<Text>Choi Da-hae</Text>
+		</Row>
+		<Row Tag="LOC_THT_GREATPERSON_HUMPBACK_TECH_BOOST" Language="en_US">
+			<Text>Grants 3 free Eurekas.</Text>
+		</Row>
+		<Row Tag="LOC_THT_GREATPERSON_HUMPBACK_CIVIC_BOOST" Language="en_US">
+			<Text>Grants 3 free Inspirations.</Text>
+		</Row>
+		<Row Tag="LOC_THT_GREAT_PERSON_CLASS_HUMPBACK_WHALE_NAME" Language="en_US">
+			<Text>Humpback Whale</Text>
+		</Row>
+		<Row Tag="LOC_THT_GREAT_PERSON_INDIVIDUAL_HUMPBACK_NAME" Language="en_US">
+			<Text>Humpback Whale</Text>
+		</Row>
+		<Row Tag="LOC_THT_BUILDING_GIMBAP_RESTAURANT_NAME" Language="en_US">
+			<Text>Gimbap Restaurant</Text>
+		</Row>
+		<Row Tag="LOC_THT_LEADER_WOO_NAME" Language="en_US">
+			<Text>Woo Young-woo</Text>
+		</Row>
+		<Row Tag="LOC_THT_PEDIA_LEADERS_PAGE_LEADER_WOO_QUOTE" Language="en_US">
+			<Text>Kayak, deed, rotator, noon, racecar, Woo Young-woo.</Text>
+		</Row>
+		<Row Tag="LOC_THT_AGENDA_THE_WIDE_OCEAN_NAME" Language="en_US">
+			<Text>The Wide Ocean, Not An Aquarium</Text>
+		</Row>
+		<Row Tag="LOC_THT_AGENDA_THE_WIDE_OCEAN_DESCRIPTION" Language="en_US">
+			<Text>Hates those who improve Whales resources, or who build Aquariums.</Text>
+		</Row>
+		<Row Tag="LOC_THT_TRAIT_LEADER_WILDCARD_NAME" Language="en_US">
+			<Text>Wildcard Young-woo</Text>
+		</Row>
+		<Row Tag="LOC_THT_TRAIT_LEADER_WILDCARD_DESCRIPTION" Language="en_US">
+			<Text>+1 Wildcard policy slot in all governments. +1 [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Gold] Gold to Whales resources.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

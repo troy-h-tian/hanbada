@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gameplay -->
+<!-- Author: tianhanfei -->
+<!-- DateCreated: 7/1/2023 12:27:14 PM -->
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_THT_HANBADA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_THT_CIVILIZATION_TOP_DOG_CLIENTS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_THT_CIVILIZATION_UNIT_HUMPBACK_WHALE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_THT_CIVILIZATION_BUILDING_GIMBAP_RESTAURANT" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" Name="LOC_THT_CIVILIZATION_HANBADA_NAME" Description="LOC_THT_CIVILIZATION_HANBADA_DESCRIPTION" Adjective="LOC_THT_CIVILIZATION_HANBADA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_ASIAN"/>
+	</Civilizations>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" ResourceType="RESOURCE_WHALES" Tier="1"/>
+	</StartBiasResources>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" TerrainType="TERRAIN_COAST" Tier="1"/>
+	</StartBiasTerrains>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" TraitType="TRAIT_THT_CIVILIZATION_TOP_DOG_CLIENTS"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" TraitType="TRAIT_THT_CIVILIZATION_UNIT_HUMPBACK_WHALE"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" TraitType="TRAIT_THT_CIVILIZATION_BUILDING_GIMBAP_RESTAURANT"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_THT_CIVILIZATION_TOP_DOG_CLIENTS" Name="LOC_THT_TRAIT_CIVILIZATION_TOP_DOG_CLIENTS_NAME" Description="LOC_THT_TRAIT_CIVILIZATION_TOP_DOG_CLIENTS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_THT_CIVILIZATION_UNIT_HUMPBACK_WHALE" Name="LOC_THT_TRAIT_CIVILIZATION_UNIT_HUMPBACK_WHALE_NAME"/>
+		<Row TraitType="TRAIT_THT_CIVILIZATION_BUILDING_GIMBAP_RESTAURANT" Name="LOC_THT_TRAIT_CIVILIZATION_BUILDING_GIMBAP_RESTAURANT_NAME"/>
+	</Traits>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_THT_TOP_DOG_GOVERNOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_TOP_DOG_SPY_OFFENSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SPY_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_TOP_DOG_SPY_DEFENSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SPY_BONUS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_THT_TOP_DOG_GOVERNOR</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_TOP_DOG_GOVERNOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_TOP_DOG_SPY_OFFENSE</ModifierId>
+			<Name>Offense</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_TOP_DOG_SPY_OFFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_TOP_DOG_SPY_DEFENSE</ModifierId>
+			<Name>Offense</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_TOP_DOG_SPY_DEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_THT_CIVILIZATION_TOP_DOG_CLIENTS</TraitType>
+			<ModifierId>TRAIT_THT_TOP_DOG_GOVERNOR</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THT_CIVILIZATION_TOP_DOG_CLIENTS</TraitType>
+			<ModifierId>TRAIT_THT_TOP_DOG_SPY_OFFENSE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THT_CIVILIZATION_TOP_DOG_CLIENTS</TraitType>
+			<ModifierId>TRAIT_THT_TOP_DOG_SPY_DEFENSE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_HANBADA_LAW_FIRM"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_DAD_GIMBAP_RESTAURANT"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_HAIRY_PUB"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_THE_COURTROOM"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_SODEOK_DONG"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_TAESAN_LAW_FIRM"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_JEJU_ISLAND"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_SNU"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_HWANGJISA"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_DAEHYEON_HOTEL"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_DONG_HOUSE"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_IHWA_HQ"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_GEUMGANG_HQ"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_BANG_WOODS"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_BANG_HAGWON"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_HAENGBOK_NOODLE"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_RAON_HQ"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CityName="LOC_THT_CITY_NAME_TAE_HOUSE"/>
+	</CityNames>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" CitizenName="LOC_THT_CITIZEN_HANBADA_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+	<Types>
+		<Row Type="UNIT_THT_HUMPBACK_WHALE" Kind="KIND_UNIT"/>
+		<Row Type="GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE" Kind="KIND_GREAT_PERSON_CLASS"/>
+		<Row Type="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_ONE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_TWO" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_THREE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_FOUR" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_FIVE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_SIX" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_SEVEN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_EIGHT" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_NINE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_TEN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="MODIFIER_THT_HUMPBACK_TECH_BOOST" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_THT_HUMPBACK_CIVIC_BOOST" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row ModifierType="MODIFIER_THT_HUMPBACK_TECH_BOOST" CollectionType="COLLECTION_OWNER" EffectType="EFFECT_ADJUST_PLAYER_RANDOM_TECHNOLOGY_BOOST_GOODY_HUT"/>
+		<Row ModifierType="MODIFIER_THT_HUMPBACK_CIVIC_BOOST" CollectionType="COLLECTION_OWNER" EffectType="EFFECT_ADJUST_PLAYER_RANDOM_CIVIC_BOOST_GOODY_HUT"/>
+	</DynamicModifiers>
+	<Modifiers>
+		<Row ModifierId="GREATPERSON_THT_HUMPBACK_TECH_BOOST" ModifierType="MODIFIER_THT_HUMPBACK_TECH_BOOST"/>
+		<Row ModifierId="GREATPERSON_THT_HUMPBACK_CIVIC_BOOST" ModifierType="MODIFIER_THT_HUMPBACK_CIVIC_BOOST"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_THT_HUMPBACK_TECH_BOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_THT_HUMPBACK_CIVIC_BOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_THT_HUMPBACK_TECH_BOOST" Context="Summary" Text="LOC_THT_GREATPERSON_HUMPBACK_TECH_BOOST"/>
+		<Row ModifierId="GREATPERSON_THT_HUMPBACK_CIVIC_BOOST" Context="Summary" Text="LOC_THT_GREATPERSON_HUMPBACK_CIVIC_BOOST"/>
+	</ModifierStrings>
+	<GreatPersonClasses>
+    	<Row GreatPersonClassType="GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE" Name="LOC_THT_GREAT_PERSON_CLASS_HUMPBACK_WHALE_NAME" UnitType="UNIT_THT_HUMPBACK_WHALE" DistrictType="DISTRICT_CITY_CENTER" AvailableInTimeline="false" GenerateDuplicateIndividuals="true" PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" IconString="[ICON_GreatScientist]" ActionIcon="ICON_UNIT_GREAT_SCIENTIST"/>
+	</GreatPersonClasses>
+	<Units>
+		<Row UnitType="UNIT_THT_HUMPBACK_WHALE" Cost="1" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_THT_UNIT_HUMPBACK_WHALE_NAME" Description="LOC_THT_UNIT_HUMPBACK_WHALE_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False" TraitType="TRAIT_THT_CIVILIZATION_UNIT_HUMPBACK_WHALE"/>
+	</Units>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_ONE" Name="LOC_THT_GREAT_PERSON_INDIVIDUAL_HUMPBACK_NAME" GreatPersonClassType="GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_TWO" Name="LOC_THT_GREAT_PERSON_INDIVIDUAL_HUMPBACK_NAME" GreatPersonClassType="GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_THREE" Name="LOC_THT_GREAT_PERSON_INDIVIDUAL_HUMPBACK_NAME" GreatPersonClassType="GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE" EraType="ERA_ANCIENT" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_FOUR" Name="LOC_THT_GREAT_PERSON_INDIVIDUAL_HUMPBACK_NAME" GreatPersonClassType="GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_FIVE" Name="LOC_THT_GREAT_PERSON_INDIVIDUAL_HUMPBACK_NAME" GreatPersonClassType="GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE" EraType="ERA_ANCIENT" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_SIX" Name="LOC_THT_GREAT_PERSON_INDIVIDUAL_HUMPBACK_NAME" GreatPersonClassType="GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_SEVEN" Name="LOC_THT_GREAT_PERSON_INDIVIDUAL_HUMPBACK_NAME" GreatPersonClassType="GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE" EraType="ERA_ANCIENT" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_EIGHT" Name="LOC_THT_GREAT_PERSON_INDIVIDUAL_HUMPBACK_NAME" GreatPersonClassType="GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_NINE" Name="LOC_THT_GREAT_PERSON_INDIVIDUAL_HUMPBACK_NAME" GreatPersonClassType="GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE" EraType="ERA_ANCIENT" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_TEN" Name="LOC_THT_GREAT_PERSON_INDIVIDUAL_HUMPBACK_NAME" GreatPersonClassType="GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE" EraType="ERA_ANCIENT" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_ONE" ModifierId="GREATPERSON_THT_HUMPBACK_TECH_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_ONE" ModifierId="GREATPERSON_THT_HUMPBACK_CIVIC_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_TWO" ModifierId="GREATPERSON_THT_HUMPBACK_TECH_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_TWO" ModifierId="GREATPERSON_THT_HUMPBACK_CIVIC_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_THREE" ModifierId="GREATPERSON_THT_HUMPBACK_TECH_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_THREE" ModifierId="GREATPERSON_THT_HUMPBACK_CIVIC_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_FOUR" ModifierId="GREATPERSON_THT_HUMPBACK_TECH_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_FOUR" ModifierId="GREATPERSON_THT_HUMPBACK_CIVIC_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_FIVE" ModifierId="GREATPERSON_THT_HUMPBACK_TECH_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_FIVE" ModifierId="GREATPERSON_THT_HUMPBACK_CIVIC_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_SIX" ModifierId="GREATPERSON_THT_HUMPBACK_TECH_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_SIX" ModifierId="GREATPERSON_THT_HUMPBACK_CIVIC_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_SEVEN" ModifierId="GREATPERSON_THT_HUMPBACK_TECH_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_SEVEN" ModifierId="GREATPERSON_THT_HUMPBACK_CIVIC_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_EIGHT" ModifierId="GREATPERSON_THT_HUMPBACK_TECH_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_EIGHT" ModifierId="GREATPERSON_THT_HUMPBACK_CIVIC_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_NINE" ModifierId="GREATPERSON_THT_HUMPBACK_TECH_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_NINE" ModifierId="GREATPERSON_THT_HUMPBACK_CIVIC_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_TEN" ModifierId="GREATPERSON_THT_HUMPBACK_TECH_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_THT_PERSON_INDIVIDUAL_HUMPBACK_TEN" ModifierId="GREATPERSON_THT_HUMPBACK_CIVIC_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_THT_CIVILIZATION_UNIT_HUMPBACK_WHALE</TraitType>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_CLASSICAL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THT_CIVILIZATION_UNIT_HUMPBACK_WHALE</TraitType>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_MEDIEVAL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THT_CIVILIZATION_UNIT_HUMPBACK_WHALE</TraitType>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_RENAISSANCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THT_CIVILIZATION_UNIT_HUMPBACK_WHALE</TraitType>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_INDUSTRIAL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THT_CIVILIZATION_UNIT_HUMPBACK_WHALE</TraitType>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_MODERN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THT_CIVILIZATION_UNIT_HUMPBACK_WHALE</TraitType>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_ATOMIC</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THT_CIVILIZATION_UNIT_HUMPBACK_WHALE</TraitType>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_INFORMATION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THT_CIVILIZATION_UNIT_HUMPBACK_WHALE</TraitType>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_FUTURE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_CLASSICAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_GUARANTEE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_MEDIEVAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_GUARANTEE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_RENAISSANCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_GUARANTEE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_INDUSTRIAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_GUARANTEE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_MODERN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_GUARANTEE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_ATOMIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_GUARANTEE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_INFORMATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_GUARANTEE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_FUTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_GUARANTEE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_CLASSICAL</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_CLASSICAL</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_CLASSICAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_MEDIEVAL</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_MEDIEVAL</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_RENAISSANCE</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_RENAISSANCE</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_INDUSTRIAL</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_INDUSTRIAL</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INDUSTRIAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_MODERN</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_MODERN</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_ATOMIC</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_ATOMIC</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_INFORMATION</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_INFORMATION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_FUTURE</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_THT_PERSON_CLASS_HUMPBACK_WHALE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_CIVILIZATION_HUMPBACK_WHALE_GUARANTEE_FUTURE</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_FUTURE</Value>
+		</Row>
+	</ModifierArguments>
+	<Types>
+		<Row Type="BUILDING_THT_GIMBAP_RESTAURANT" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_THT_GIMBAP_RESTAURANT" ReplacesBuildingType="BUILDING_GRANARY"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_THT_GIMBAP_RESTAURANT" Name="LOC_THT_BUILDING_GIMBAP_RESTAURANT_NAME" Description="LOC_THT_BUILDING_GIMBAP_RESTAURANT_DESCRIPTION" PrereqTech="TECH_POTTERY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_GENERIC" Housing="2" Entertainment="2" TraitType="TRAIT_THT_CIVILIZATION_BUILDING_GIMBAP_RESTAURANT"/>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_THT_GIMBAP_RESTAURANT" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_THT_GIMBAP_RESTAURANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Types>
+		<Row Type="LEADER_THT_WOO" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_THT_LEADER_WILDCARD" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_THT_WOO" Name="LOC_THT_LEADER_WOO_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_THT_WOO" Quote="LOC_THT_PEDIA_LEADERS_PAGE_LEADER_WOO_QUOTE"/>
+	</LeaderQuotes>
+	<Agendas>
+		<Row AgendaType="AGENDA_THT_THE_WIDE_OCEAN" Name="LOC_THT_AGENDA_THE_WIDE_OCEAN_NAME" Description="LOC_THT_AGENDA_THE_WIDE_OCEAN_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_THT_WOO" AgendaType="AGENDA_THT_THE_WIDE_OCEAN"/>
+	</HistoricalAgendas>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_THT_WOO" TraitType="TRAIT_THT_LEADER_WILDCARD"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_THT_LEADER_WILDCARD" Name="LOC_THT_TRAIT_LEADER_WILDCARD_NAME" Description="LOC_THT_TRAIT_LEADER_WILDCARD_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_THT_LEADER_WILDCARD" ModifierId="TRAIT_THT_WILDCARD_SLOT"/>
+		<Row TraitType="TRAIT_THT_LEADER_WILDCARD" ModifierId="TRAIT_THT_WHALES_SCIENCE"/>
+		<Row TraitType="TRAIT_THT_LEADER_WILDCARD" ModifierId="TRAIT_THT_WHALES_CULTURE"/>
+		<Row TraitType="TRAIT_THT_LEADER_WILDCARD" ModifierId="TRAIT_THT_WHALES_GOLD"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_THT_WILDCARD_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_WHALES_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_THT_IS_WHALES</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_WHALES_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_THT_IS_WHALES</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_WHALES_GOLD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_THT_IS_WHALES</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_THT_WILDCARD_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_WHALES_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_WHALES_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_WHALES_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_WHALES_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_WHALES_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THT_WHALES_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>RESOURCE_THT_IS_WHALES</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_THT_WHALES_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_THT_WHALES_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_WHALES</Value>
+		</Row>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>RESOURCE_THT_IS_WHALES</RequirementSetId>
+			<RequirementId>REQUIRES_THT_WHALES_IN_PLOT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_THT_HANBADA" LeaderType="LEADER_THT_WOO" CapitalName="LOC_THT_CITY_NAME_HANBADA_LAW_FIRM"/>
+	</CivilizationLeaders>
+</GameData>
